@@ -53,6 +53,8 @@ const FormComponent = (props) => {
                 <select name={"day"}>{dayOptions}</select>
                 <select name={"month"}>{monthOptions}</select>
                 <select name={"year"}>{yearOptions}</select>
+                <br/>
+                <br/>
                 <button type={"submit"}>Are you light side or dark side?!</button>
             </form>
         </div>
